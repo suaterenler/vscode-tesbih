@@ -59,8 +59,8 @@
     "keybindings": [
       {
         "command": "tesbih.increment",
-        "key": "ctrl+shift+t",
-        "mac": "cmd+shift+t",
+        "key": "alt+t",
+        "mac": "alt+t",
         "when": "true"
       }
     ]
