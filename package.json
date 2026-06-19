@@ -3,12 +3,27 @@
   "displayName": "Tesbih",
   "description": "Digital tesbih (prayer counter) with circular progress, multiple counters, ascending/descending modes.",
   "version": "1.0.0",
-  "publisher": "tesbih",
+  "publisher": "erenleryazilim",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suaterenler/vscode-tesbih"
+  },
+  "icon": "media/icon.png",
   "engines": {
     "vscode": "^1.85.0"
   },
   "categories": [
     "Other"
+  ],
+  "keywords": [
+    "tesbih",
+    "dhikr",
+    "prayer",
+    "counter",
+    "islamic",
+    "tasbih",
+    "zikir"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
@@ -57,8 +72,8 @@
     "watch": "tsc -watch -p ./"
   },
   "devDependencies": {
-    "@types/vscode": "^1.85.0",
     "@types/node": "^20.11.0",
+    "@types/vscode": "^1.85.0",
     "typescript": "^5.3.3"
   }
 }
