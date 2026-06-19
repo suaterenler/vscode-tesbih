@@ -12,7 +12,7 @@ Track your dhikr and tasbihat directly from your editor with a beautiful circula
 - **Color Coding** — 10 colors to organize your dhikrs
 - **Statistics & History** — Track your progress with daily, weekly, and monthly stats
 - **Sound Effects** — Audio feedback on each count and completion
-- **Keyboard Shortcut** — Press `Ctrl+Shift+T` (Mac: `Cmd+Shift+T`) to count without leaving your keyboard
+- **Keyboard Shortcut** — Press `Alt+T` to count without leaving your keyboard
 - **Timer** — Built-in stopwatch with speed estimation
 - **Drag & Drop** — Reorder items easily
 - **Export / Import** — Backup and restore your data as JSON
@@ -22,14 +22,14 @@ Track your dhikr and tasbihat directly from your editor with a beautiful circula
 ## Usage
 
 1. Click the **Tesbih** icon in the Activity Bar
-2. Start counting by clicking the button or pressing `Ctrl+Shift+T`
+2. Start counting by clicking the button or pressing `Alt+T`
 3. Add new dhikrs, customize colors, and track your progress
 
 ## Commands
 
 | Command | Shortcut |
 |---------|----------|
-| Tesbih: Count (+1) | `Ctrl+Shift+T` / `Cmd+Shift+T` |
+| Tesbih: Count (+1) | `Alt+T` |
 | Tesbih: Reset Current | Command Palette |
 
 ## License
