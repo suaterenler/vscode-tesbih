@@ -1,0 +1,64 @@
+{
+  "name": "vscode-tesbih",
+  "displayName": "Tesbih",
+  "description": "Digital tesbih (prayer counter) with circular progress, multiple counters, ascending/descending modes.",
+  "version": "1.0.0",
+  "publisher": "tesbih",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "tesbih-container",
+          "title": "Tesbih",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "tesbih-container": [
+        {
+          "type": "webview",
+          "id": "tesbihPanel",
+          "name": "Tesbih"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "tesbih.increment",
+        "title": "Tesbih: Count (+1)"
+      },
+      {
+        "command": "tesbih.reset",
+        "title": "Tesbih: Reset Current"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "tesbih.increment",
+        "key": "ctrl+shift+t",
+        "mac": "cmd+shift+t",
+        "when": "true"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "precompile": "node -e \"const d=new Date();const pad=n=>String(n).padStart(2,'0');const s=d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())+' '+pad(d.getHours())+':'+pad(d.getMinutes());require('fs').writeFileSync('src/buildDate.ts','export const BUILD_DATE = \\''+s+'\\';')\"",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
