@@ -32,6 +32,15 @@ Track your dhikr and tasbihat directly from your editor with a beautiful circula
 | Tesbih: Count (+1) | `Alt+T` |
 | Tesbih: Reset Current | Command Palette |
 
+## Screenshots
+
+![Screenshot 1](media/Screenshot_1.jpg)
+![Screenshot 2](media/Screenshot_2.jpg)
+![Screenshot 3](media/Screenshot_3.jpg)
+![Screenshot 4](media/Screenshot_4.jpg)
+![Screenshot 5](media/Screenshot_5.jpg)
+![Screenshot 6](media/Screenshot_6.jpg)
+
 ## License
 
 [MIT](LICENSE)
