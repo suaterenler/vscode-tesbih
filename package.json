@@ -2,7 +2,7 @@
   "name": "vscode-tesbih",
   "displayName": "Tesbih",
   "description": "Digital tesbih (prayer counter) with circular progress, multiple counters, ascending/descending modes.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "erenleryazilim",
   "license": "MIT",
   "repository": {
